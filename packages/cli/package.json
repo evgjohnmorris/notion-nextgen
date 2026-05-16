@@ -1,0 +1,18 @@
+{
+  "name": "@notion-nextgen/cli",
+  "version": "1.0.0",
+  "bin": {
+    "notion-nextgen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@notion-nextgen/sync": "workspace:*",
+    "yargs": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.0",
+    "typescript": "^5.0.0"
+  }
+}
